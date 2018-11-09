@@ -46,7 +46,7 @@ class DPSGraph(tk.Frame):
         self.canvas.get_tk_widget().configure(bg="black")
         self.canvas.get_tk_widget().pack(side=tk.BOTTOM, fill=tk.BOTH, expand=True)
         
-        self.canvas.show()
+        self.canvas.draw()
         
     def readjust(self, windowWidth, highestAverage):
         """
